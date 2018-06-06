@@ -12,8 +12,8 @@ $pushID = 'Uec36e7ef10fefc1b2a26f329628a80ed';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
-
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello world');
+$MySMS = $_GET['sms'];
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($MySMS);
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
