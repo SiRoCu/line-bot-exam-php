@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				//'text' => $text
+				//'text' => $text     //Remove by SiRoCu 2018-06-08 (Remove UID response to sender)
 				'text' => ''
 			];
 
