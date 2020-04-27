@@ -11,7 +11,7 @@ $pushID = 'U0742065967c6d99240b1df71d1cdbc3a';
 
 $access_token = 'j3TpPDRdPt+bPQkcBxGmzaRFmvzVhSbwalp0oGqQGTxv3NYeq2ASalGT6K02DO2mmTFHqmFzBb2Tmv+qPm+MUJ6IpJykQdtFtmo/A/XGaSFM8R4vL+sppCs7er2S/iWGN/J7BHpwRoPZIueQ/sqBrQdB04t89/1O/w1cDnyilFU=';
 $channelSecret = '29a3b0b7a2c0ede78a5c169e230206ba';
-//$pushID = 'Uac069b56e27c635574a678d77c0f1f4b';
+$pushID = 'Uac069b56e27c635574a678d77c0f1f4b'; //Minie
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
