@@ -3,8 +3,8 @@
 require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
-//$access_token = 'Lj66bFMe6xCC+2vg7OzflrfMtzIG8ETXHeuhWswdsJU7Aw+SM7nirKYCwWnAUfqrL+JSb+SB1ZO7GgsUmHhrefAtoVzzPZhuJvlngyGwzds7Fjy7aO4q5Oa5/BjCeShNXXd+SOsJhf+U5xP5Eic4TgdB04t89/1O/w1cDnyilFU=';
-$access_token = "j3TpPDRdPt+bPQkcBxGmzaRFmvzVhSbwalp0oGqQGTxv3NYeq2ASalGT6K02DO2mmTFHqmFzBb2Tmv+qPm+MUJ6IpJykQdtFtmo/A/XGaSFM8R4vL+sppCs7er2S/iWGN/J7BHpwRoPZIueQ/sqBrQdB04t89/1O/w1cDnyilFU=";
+$access_token = 'Lj66bFMe6xCC+2vg7OzflrfMtzIG8ETXHeuhWswdsJU7Aw+SM7nirKYCwWnAUfqrL+JSb+SB1ZO7GgsUmHhrefAtoVzzPZhuJvlngyGwzds7Fjy7aO4q5Oa5/BjCeShNXXd+SOsJhf+U5xP5Eic4TgdB04t89/1O/w1cDnyilFU=';
+//$access_token = "j3TpPDRdPt+bPQkcBxGmzaRFmvzVhSbwalp0oGqQGTxv3NYeq2ASalGT6K02DO2mmTFHqmFzBb2Tmv+qPm+MUJ6IpJykQdtFtmo/A/XGaSFM8R4vL+sppCs7er2S/iWGN/J7BHpwRoPZIueQ/sqBrQdB04t89/1O/w1cDnyilFU=";
 
 // Get POST body content
 $content = file_get_contents('php://input');
