@@ -15,7 +15,7 @@ $pushID = 'Uac069b56e27c635574a678d77c0f1f4b';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 $MySMS = $_GET['sms'];
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('Hello');
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('มีคำสั่งซื้อใหม่เข้ามา');
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
