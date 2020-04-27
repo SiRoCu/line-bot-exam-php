@@ -16,7 +16,7 @@ $pushID = 'Uac069b56e27c635574a678d77c0f1f4b'; //Minie
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 $MySMS = $_GET['sms'];
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('Ummm...');
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('ทดสอบ...');
 $response = $bot->pushMessage($pushID, $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
