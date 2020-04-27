@@ -23,8 +23,8 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text     //Remove by SiRoCu 2018-06-08 (Remove UID response to sender)
-				//'text' => ''
+				//'text' => $text     //Remove by SiRoCu 2018-06-08 (Remove UID response to sender)
+				'text' => ''
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
